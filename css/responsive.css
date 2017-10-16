@@ -1,0 +1,93 @@
+@media screen and (min-width: 320px){
+/*
+h1 {
+  font-size: 8.5vmin;
+}*/
+h2 {
+  font-size: 1.11em;
+}
+
+h3 {
+  font-size: 2.5vmin;
+  /*display: none;*/
+}
+/********************FLEXBOX********************/
+  #logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /*width: 100%;
+    text-align: center;*/
+  }
+
+  .main-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /********************PAGE: PORTFOLIO********************/
+
+  #gallery li {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*width: 28.333%;*/
+    /*height: 15%;*/
+  }
+
+  #gallery li:nth-child(4n) {
+    clear: left;
+  }
+  #gallery li a p {
+    font-size: 3em;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 860px ){
+  #gallery li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 28.333%
+  }
+
+}
+
+
+@media screen  and (min-width: 1025px){
+
+  #logo {
+      float: left;
+      margin-left: 2%;
+      text-align: left;
+      width: 48%;
+    }
+  #location {
+    margin: 2.5em 0 0 0;
+    background: none;
+    float: right;
+    /*font-size: 1.125em;*/
+    text-align: right;
+    width: 45%
+    }
+
+  nav {
+    float: right;
+    text-align: right;
+    margin: 1.35em 0 0 0;
+  }
+
+  /*h2 {
+    font-size: 2.25em;
+  }*/
+
+  h3 {
+    display: inline-block;
+  }
+  h4 {
+    padding: 0 0 .35em 0;
+  }
+  }

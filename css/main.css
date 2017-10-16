@@ -1,0 +1,174 @@
+/********************GENERAL********************/
+
+body {
+  background: url("../img/darkgraywood.jpg") no-repeat center fixed;
+  background-size: cover;
+  font-family: 'Oswald', sans-serif;
+}
+/*
+h1, h2 {
+  font-family: 'Diplomata', cursive;
+}
+
+h3, h4 {
+font-family: 'Amatic SC', cursive;
+}*/
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  /*border: .5em;*/
+}
+
+#wrapper {
+  max-width: auto;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+/********************HEADING********************/
+
+header {
+  float: left;
+  margin: 0;
+  padding: 15px 0 0 0;
+  width: 100%;
+  background-color: #393956;
+  /*border-color: #1a2638;*/
+}
+
+#logo {
+  text-align: left;
+  margin: 0;
+}
+#location {
+  float:left;
+  text-align: right;
+   margin: 0;
+   /*padding-right: 15px;*/
+   display: inline-block;
+ }
+
+h1 {
+  font-family: 'Diplomata', cursive;
+  margin: 0 0 0 15px;
+  font-size: 4.5em;
+  font-weight: normal;
+  text-shadow: 1px 1px 4px #000;
+  /*line-height: 0.8em;*/
+}
+
+h2 {
+  font-family: 'Diplomata', cursive;
+  margin: 15px 15px;
+  font-size: 2.25em;
+  font-weight: normal;
+  text-shadow: 1px 1px 4px #000;
+  /*line-height: 0.8em;*/
+}
+
+h3 {
+  /*font-family: 'Amatic SC', cursive;*/
+  color: #fff202;
+  margin: 0  15px 15px 15px;
+  font-size: 1.5em;
+  font-weight: normal;
+}
+
+h4 {
+  font-family: 'Amatic SC', cursive;
+  margin: 0 0 0;
+  font-size: 1.5em;
+  font-weight: normal;
+}
+
+/********************NAVIGATION********************/
+
+nav {
+  font-size: 1.5em;
+  text-shadow: .5px .5px 2px #000;
+  text-align: center;
+  padding: 10px 0;
+  margin: 15px 0 0 0;
+}
+
+nav ul {
+ /*list-style: none;*/
+  margin: 0 15px;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 20px;
+  display: inline-block;
+}
+
+/********************BODY********************/
+
+/*img {
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0;
+}*/
+
+/********************FOOTER********************/
+
+footer {
+  font-size: 1em;
+  clear: both;
+  padding: 70px;
+  text-align: center;
+  color: #fff202;
+}
+
+/********************DIV********************/
+
+
+/********************INDEX.HTML********************/
+
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#gallery li{
+  float: left;
+  width: 100%;
+  margin: 2.5%;
+  background-color: #f5f5f5;
+  /*color: #bdc3c7;*/
+}
+
+#gallery li a p {
+  margin: 0;
+  padding: 0;
+  /*font-size: 5em;*/
+  color: #000;
+}
+/********************THE GOOD STUFF********************/
+/********************THE BETTER STUFF********************/
+/********************THE BEST STUFF********************/
+/********************LEARN ABOUT US********************/
+/********************HOLLER AT US********************/
+
+
+
+/********************COLORS********************/
+
+/*logo text*/
+#logo {
+  color: #fff;
+}
+
+/*links*/
+nav a {
+  color: #a4a4a4;
+}
+
+#location, #location a {
+  color: #fff
+}
