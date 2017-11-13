@@ -4,11 +4,11 @@ h1 {
   font-size: 8.5vmin;
 }*/
 h2 {
-  font-size: 1.11em;
+  font-size: 2em;
 }
 
 h3 {
-  font-size: 2.5vmin;
+  font-size: 1.5em;
   /*display: none;*/
 }
 /********************FLEXBOX********************/
@@ -17,8 +17,8 @@ h3 {
     flex-direction: column;
     align-items: center;
 
-    /*width: 100%;
-    text-align: center;*/
+    width: 100%;
+    text-align: center;
   }
 
   .main-nav {
@@ -28,7 +28,24 @@ h3 {
     justify-content: center;
   }
 
-  /********************PAGE: PORTFOLIO********************/
+  /********************PAGE: INDEX********************/
+  #overlay {
+    background:rgba(0,0,0,0.8);
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    display:none;
+    text-align:center;
+  }
+
+  #overlay img {
+    width: 90%;
+    /*height: 55%;*/
+   margin-top: 10%;
+  }
+
 
   #gallery li {
     display: flex;

@@ -149,9 +149,13 @@ footer {
   /*font-size: 5em;*/
   color: #000;
 }
-/********************THE GOOD STUFF********************/
-/********************THE BETTER STUFF********************/
-/********************THE BEST STUFF********************/
+/********************SAVE A SPOT********************/
+label, p {
+  font-family: 'Amatic SC', cursive;
+  font-size: 1.75em;
+  color: #fff;
+}
+
 /********************LEARN ABOUT US********************/
 /********************HOLLER AT US********************/
 
@@ -171,4 +175,22 @@ nav a {
 
 #location, #location a {
   color: #fff
+}
+
+/************OVERLAY***********************************/
+#overlay {
+  background:rgba(0,0,0,0.8);
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0;
+  left:0;
+  display:none;
+  text-align:center;
+}
+
+#overlay img {
+  width: 27.5%;
+  /*height: 55%;*/
+ margin-top: 10%;
 }

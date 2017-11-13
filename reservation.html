@@ -7,10 +7,12 @@
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700|Oswald|Diplomata" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <!-- <link rel="stylesheet" href="/resources/demos/style.css"> -->
     <meta name="viewport" content="width=device-width, intitial-scale=1.0">
   </head>
-  <body>
-    <header class = "main-header">
+    <body>
+      <header class = "main-header">
       <a href="index.html" id="logo">
         <h1>Silky Mills</h1>
         <h2>Beef &#124; Beer &#124;	Bourbon</h2>
@@ -18,12 +20,49 @@
       </a>
       <nav>
         <ul class = "main-nav">
-          <!-- <li><a href="foodMenu.html">The Good Stuff</a></li>
-          <li><a href="beerMenu.html">The Better Stuff</a></li>
-          <li><a href="liquorMenu.html">The Best Stuff</a></li> -->
           <li><a href="reservation.html">Save A Spot</a></li>
           <li><a href="about.html">Learn About Us</a></li>
           <li><a href="contact.html">Holler At Us</a></li>
         </ul>
       </nav>
     </header>
+    <div>
+      <form id="reserve">
+        <p>If looking to save a spot for parties of 8 or more, please call us for availability</p>
+        <label>When ya comin'?<input type="text" id="datepicker"></label>
+        <label>How many you got with ya?
+          <select>
+            <option> </option>
+           <option onclick="troll()">0</option>
+           <option>1</option>
+           <option>2</option>
+           <option>3</option>
+           <option>4</option>
+           <option>5</option>
+           <option>6</option>
+           <option>7</option>
+           <option>8</option>
+           <option>8+</option>
+         </select>
+       </label>
+       <label>Alright then, who are ya?
+          <select>
+            <option> </option>
+            <option>Mrs.</option>
+            <option>Miss</option>
+            <option>Mr.</option>
+            <option>Nah, not my thing</option>
+          </select>
+            <input id="lastName" type="text" message="Last Name">
+            <input id="firstName" type="text">
+            <input id="phoneNbr" type="text">
+            <input id="email" type="text">
+        </label>
+        <button onclick="reserve()">Put 'er in stone!</button>
+      </form>
+    </div>
+  </body>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="js/reservation.js"></script>
+</html>
