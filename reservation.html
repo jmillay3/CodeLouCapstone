@@ -32,8 +32,8 @@
         <label>When ya comin'?<input type="text" id="datepicker"></label>
         <label>How many you got with ya?
           <select>
-            <option> </option>
-           <option onclick="troll()">0</option>
+           <option> </option>
+           <option onchange="troll()">0</option>
            <option>1</option>
            <option>2</option>
            <option>3</option>
@@ -42,7 +42,6 @@
            <option>6</option>
            <option>7</option>
            <option>8</option>
-           <option>8+</option>
          </select>
        </label>
        <label>Alright then, who are ya?
@@ -60,6 +59,9 @@
         </label>
         <button onclick="reserve()">Put 'er in stone!</button>
       </form>
+      <footer>
+        <p>&copy; 2017 MillSilky Inc.</p>
+      </footer>
     </div>
   </body>
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>

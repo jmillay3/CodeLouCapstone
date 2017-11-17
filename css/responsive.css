@@ -70,6 +70,11 @@ h3 {
     align-items: center;
     width: 28.333%
   }
+  #overlay img {
+    width: 33.3%;
+    height: 75%;
+   margin-top: 10%;
+  }
 
 }
 

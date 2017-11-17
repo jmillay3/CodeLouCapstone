@@ -6,13 +6,12 @@ $( function() {
 } );
 
 
-/////Put 'er in stone! submission//////
-
-// function troll(selection) {
-//   if selection = '0'
+/////////'0' reservation troll selection////////
+// function troll() {
+//
 //   alert("You think you're funny don't ya? Saving a spot for zero people...try again troll");
 // };
-//
+
 
 
 
